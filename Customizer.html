@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Customizer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style> 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .top-bar {
+      background-color: #e4d5c2;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .empresa-nome {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .icones {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .icones i {
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .logo {
+      text-align: center;
+      margin: 20px 0 10px;
+    }
+
+    .logo img {
+      width: 200px;
+    }
+
+    .slogan {
+      text-align: center;
+      font-size: 20px;
+      font-style: italic;
+      color: #d1b694;
+      margin-bottom: 25px;
+      font-weight: 500;
+    }
+
+    .conteudo {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .busca {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+
+    .costureira-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: align;
+      align-items: center;
+    }
+
+    .costureira-card {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+      padding: 9px;
+      border-radius: 5px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+      min-width: 320px;
+    }
+
+    .costureira-info {
+      margin-bottom: 20px;
+    }
+
+    .costureira-info h3 {
+      margin: 0 0 5px 0;
+    }
+
+    .costureira-info p {
+      margin: 2px 0;
+    }
+
+    .link-falso {
+      color: #1a73e8;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 5px;
+    }
+
+    .costureira-card button {
+      background-color: #e4d5c2;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: center;
+    }
+
+    @media (max-width: 800px) {
+      .costureira-card {
+        width: 70%;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .costureira-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="empresa-nome">Customizer</div>
+    <div class="icones">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-bell"></i>
+      <i class="fas fa-user-circle"></i>
+    </div>
+  </header>
+
+  <div class="logo">
+    <img src="CUSTOMIZER.png" alt="">
+  </div>
+
+  <div class="slogan">
+    <p>Encontre a costureira mais proxima de voce!</p>
+  </div>
+
+  <div class="conteudo">
+    <input type="text" placeholder="Buscar costureira por nome..." class="busca">
+
+    <div class="costureira">
+
+      <div class="costureira-card"><div class="costureira-info"><h3>Juliana Martins</h3><p>R$ 109,90</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Paula Ferraz</h3><p>R$ 119,99</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Carla Muniz</h3><p>R$ 90,00</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Fernanda Dias</h3><p>R$ 139,90</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Renata Costa</h3><p>R$ 119,90</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Patrícia Rocha</h3><p>R$ 120,00</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Sandra Lima</h3><p>R$ 130,00</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Camila Nunes</h3><p>R$ 129,90</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class=""><div class=""><h3></h3><p></p><p class=""></p></div></div>
+      <div class="costureira-card"><div class="costureira-info"><h3>Beatriz Borges</h3><p>R$ 99,00</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+    
+  </div>
+</body>
+</html>
